@@ -372,8 +372,8 @@ def cornersHeuristic(state, problem):
 
     "*** YOUR CODE HERE ***"
     h = 0
-    cornersLeft = state[1][:]
     startPoint = state[0]
+    cornersLeft = state[1][:]
 
     while len(cornersLeft) > 0:
         closestCorner = cornersLeft[0]
